@@ -36,7 +36,7 @@ const routes = [
 		name: 'Blog',
 		redirect: '/blog/write',
 		component: Layout,
-		meta: {title: '博客管理', icon: 'el-icon-menu'},
+		meta: {title: '文章管理', icon: 'el-icon-menu'},
 		children: [
 			{
 				path: 'write',
